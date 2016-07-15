@@ -30,3 +30,5 @@ To visualize this as a DAG, use makefile2dot.py which reads make targets and cre
 python makefile2dot.py < Makefile | dot -Tpdf > process.pdf
 open process.pdf
 ```
+
+![make DAG](https://github.com/phsilva/make-dag/blob/master/process.png)
